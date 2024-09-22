@@ -1,4 +1,4 @@
 clear
-g++ main.cpp -o Program
+g++ main.cpp Graph.cpp -o Program
 ./Program
 rm ./Program
