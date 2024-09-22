@@ -6,7 +6,6 @@
 class Graph {
 public:
     Graph(int n);
-    ~Graph();
 
     void addEdge(int u, int v);
     void removeEdge(int u, int v);

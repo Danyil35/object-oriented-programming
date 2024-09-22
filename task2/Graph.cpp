@@ -6,12 +6,6 @@
 Graph::Graph(int n) {
     numVertices = n;
     adjMatrix.resize(n, std::vector<int>(n, 0));
-    
-    std::cout << "Constructor called." << std::endl;
-}
-
-Graph::~Graph() {
-    std::cout << "Destructor called." << std::endl;
 }
 
 void Graph::addEdge(int u, int v) {
