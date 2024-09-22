@@ -1,14 +1,16 @@
 #include "Country.h"
-void Country::setName(string name) {
+
+
+void Country::setName(std::string name) {
     this->name = name;
 }
-string Country::getName() {
+std::string Country::getName() {
     return name;
 }
-void Country::setCapital(string capital) {
+void Country::setCapital(std::string capital) {
     this->capital = capital;
 }
-string Country::getCapital() {
+std::string Country::getCapital() {
     return capital;
 }
 void Country::setPopulation(int population) {

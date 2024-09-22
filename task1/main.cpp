@@ -1,6 +1,9 @@
 #include <iostream>
 #include "Country.h"
 
+using namespace std;
+
+
 int main(){
     Country UKR;
     UKR.setName("Ukraine");
