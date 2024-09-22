@@ -9,19 +9,19 @@ struct Country {
     int population;
 };
 
-void setName(Country& country, const string& countryName) {
+void setName(Country& country, string countryName) {
     country.name = countryName;
 }
 
-string getName(const Country& country) {
+string getName(Country& country) {
     return country.name;
 }
 
-void setCapital(Country& country, const string& countryCapital) {
+void setCapital(Country& country, string countryCapital) {
     country.capital = countryCapital;
 }
 
-string getCapital(const Country& country) {
+string getCapital(Country& country) {
     return country.capital;
 }
 
@@ -29,7 +29,7 @@ void setPopulation(Country& country, int countryPopulation) {
     country.population = countryPopulation;
 }
 
-int getPopulation(const Country& country) {
+int getPopulation(Country& country) {
     return country.population;
 }
 
