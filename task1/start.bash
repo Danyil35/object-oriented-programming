@@ -1,4 +1,4 @@
 clear
-g++ main.cpp Country.cpp -o Program
+g++ main.cpp -o Program
 ./Program
 rm ./Program
