@@ -2,15 +2,13 @@
 #define COUNTRY_H
 #include <string>
 
-
-class Country {
+class Country
+{
 public:
     void setName(std::string name);
     std::string getName();
-
     void setCapital(std::string capital);
     std::string getCapital();
-
     void setPopulation(int population);
     int getPopulation();
 private:
@@ -19,4 +17,4 @@ private:
     int population;
 };
 
-#endif
+#endif // COUNTRY_H
