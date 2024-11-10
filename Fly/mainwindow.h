@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QLabel>
+#include <QTimer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -20,11 +21,15 @@ protected:
     bool event(QEvent *event) override;
 
 private:
-    Ui::MainWindow *ui;
-    QLabel *fly;
-    QLabel *window;
+    Ui::MainWindow *ui;     
+    QLabel *fly;               
+    QLabel *window;            
+    QLabel *trap;              
+    QTimer *timer;             
 
-    void moveFlyAway(const QPoint &mousePos);
-    bool isFlyInTrap();
+    void moveFlyAway(const QPoint &mousePos);    
+    bool isFlyInTrap();                          
+    void moveFlyTowardsWindow();                 
 };
+
 #endif // MAINWINDOW_H

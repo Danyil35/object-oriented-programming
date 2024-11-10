@@ -6,50 +6,66 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>754</width>
+    <height>452</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="window">
+   <widget class="QLabel" name="fly">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>0</y>
-      <width>151</width>
-      <height>131</height>
+      <x>20</x>
+      <y>306</y>
+      <width>71</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="images.qrc">:/new/image/imgs/png-clipart-window-open-windows-angle-photography.png</pixmap>
+     <pixmap resource="res.qrc">:/images/img/fly.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
-    <property name="wordWrap">
-     <bool>false</bool>
-    </property>
    </widget>
-   <widget class="QLabel" name="fly">
+   <widget class="QLabel" name="trap">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>470</y>
-      <width>51</width>
-      <height>51</height>
+      <x>623</x>
+      <y>20</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="images.qrc">:/new/image/imgs/side-fly-geometric-color-stroke-123fa9.png</pixmap>
+     <pixmap resource="res.qrc">:/images/img/trap.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="window">
+    <property name="geometry">
+     <rect>
+      <x>273</x>
+      <y>20</y>
+      <width>121</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res.qrc">:/images/img/window.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -61,7 +77,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>754</width>
      <height>22</height>
     </rect>
    </property>
@@ -69,7 +85,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="images.qrc"/>
+  <include location="res.qrc"/>
  </resources>
  <connections/>
 </ui>
